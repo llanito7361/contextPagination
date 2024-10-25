@@ -1,0 +1,76 @@
+/* .title{
+   text-align: center;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+li {
+    height: 300px ;
+    width: 200px;
+    border: solid gray 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+li button{
+    display: inline;
+}
+ul h5{
+    white-space: nowrap;
+    overflow: hidden;
+}
+ul img {
+    width: 100px;
+    /* height: auto; */
+
+/* }   */
+
+.containeeer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+h4{ 
+    text-align: center;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta automáticamente según el espacio */
+    justify-items: center; /* Centra los elementos horizontalmente en cada columna */
+    align-items: center; /* Centra los elementos verticalmente */
+    gap: 30px; /* Controla el espacio entre los elementos */
+    width: 100%; /* Asegúrate de que ocupe el 100% del ancho */
+    max-width: 1200px; /* Limita el ancho máximo si lo deseas */
+}
+
+li{
+    height: 400px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+li h5{
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 500;
+}
+li img{
+    width: 100px;
+    /* height: 100px; */
+    object-fit: cover;
+    margin: 0 auto;
+}
